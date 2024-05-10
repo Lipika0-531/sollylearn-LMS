@@ -1,0 +1,7 @@
+2024-05-06 20:04:06.297 +05:30 [INF] Now listening on: https://localhost:7253
+2024-05-06 20:04:06.311 +05:30 [INF] Now listening on: http://localhost:5092
+2024-05-06 20:04:06.354 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 20:04:06.357 +05:30 [INF] Hosting environment: Development
+2024-05-06 20:04:06.362 +05:30 [INF] Content root path: F:\ASP.NetCore\SollyLearn\SollyLearn\SollyLearn.API
+2024-05-06 20:04:37.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2024-05-06 20:04:49.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 12478.9981ms

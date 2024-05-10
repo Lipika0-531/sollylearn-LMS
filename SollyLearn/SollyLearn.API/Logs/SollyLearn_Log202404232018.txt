@@ -1,0 +1,66 @@
+2024-04-23 20:18:22.739 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/7fc2efac-fe9f-4996-af23-b4f127bb7752 - null null
+2024-04-23 20:18:22.755 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:22.766 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:23.225 +05:30 [INF] Executed DbCommand (262ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:23.299 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:23.338 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 568.0504ms
+2024-04-23 20:18:23.339 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:23.341 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/7fc2efac-fe9f-4996-af23-b4f127bb7752 - 200 null application/json; charset=utf-8 606.8716ms
+2024-04-23 20:18:24.105 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/00000000-0000-0000-0000-000000000000 - null null
+2024-04-23 20:18:24.293 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:24.295 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:24.665 +05:30 [INF] Executed DbCommand (145ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:24.675 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:24.690 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 384.9855ms
+2024-04-23 20:18:24.705 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:24.709 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/00000000-0000-0000-0000-000000000000 - 200 null application/json; charset=utf-8 607.0968ms
+2024-04-23 20:18:54.434 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/505037a5-be9d-4b30-b1ab-6dcff18ae655 - null null
+2024-04-23 20:18:54.462 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:54.463 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:54.487 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:54.498 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:54.500 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 33.3716ms
+2024-04-23 20:18:54.504 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:54.507 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/505037a5-be9d-4b30-b1ab-6dcff18ae655 - 200 null application/json; charset=utf-8 72.771ms
+2024-04-23 20:18:55.244 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/00000000-0000-0000-0000-000000000000 - null null
+2024-04-23 20:18:55.267 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:55.327 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:55.360 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:55.401 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:55.409 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 69.9621ms
+2024-04-23 20:18:55.434 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:55.444 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/00000000-0000-0000-0000-000000000000 - 200 null application/json; charset=utf-8 200.1854ms
+2024-04-23 20:18:57.164 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/a4eb5696-0e8e-417b-bf47-cdcca646e9bb - null null
+2024-04-23 20:18:57.173 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:57.174 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:57.194 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:57.200 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:57.202 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 25.0955ms
+2024-04-23 20:18:57.207 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:57.210 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/a4eb5696-0e8e-417b-bf47-cdcca646e9bb - 200 null application/json; charset=utf-8 46.1279ms
+2024-04-23 20:18:59.443 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/41b65a0e-1097-4759-a51c-e031d6ceb8b6 - null null
+2024-04-23 20:18:59.493 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:59.494 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-23 20:18:59.508 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-23 20:18:59.512 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-23 20:18:59.515 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 18.3912ms
+2024-04-23 20:18:59.516 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-23 20:18:59.518 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/41b65a0e-1097-4759-a51c-e031d6ceb8b6 - 200 null application/json; charset=utf-8 75.4674ms

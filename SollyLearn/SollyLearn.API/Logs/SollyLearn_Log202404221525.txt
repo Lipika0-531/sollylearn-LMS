@@ -1,0 +1,51 @@
+2024-04-22 15:25:41.005 +05:30 [INF] User profile is available. Using 'C:\Users\LIPIKA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-22 15:25:41.444 +05:30 [INF] Now listening on: https://localhost:7253
+2024-04-22 15:25:41.446 +05:30 [INF] Now listening on: http://localhost:5092
+2024-04-22 15:25:41.450 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-22 15:25:41.452 +05:30 [INF] Hosting environment: Development
+2024-04-22 15:25:41.453 +05:30 [INF] Content root path: F:\ASP.NetCore\SollyLearn\SollyLearn\SollyLearn.API
+2024-04-22 15:25:45.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2024-04-22 15:25:45.615 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 543.4486ms
+2024-04-22 15:25:45.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2024-04-22 15:25:45.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-22 15:25:45.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 30.6109ms
+2024-04-22 15:25:45.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.3774ms
+2024-04-22 15:25:45.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2024-04-22 15:25:46.380 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 411.9358ms
+2024-04-22 15:25:50.031 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/TechStack - null null
+2024-04-22 15:25:50.238 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API)'
+2024-04-22 15:25:50.287 +05:30 [INF] Route matched with {action = "GetAllTechStacks", controller = "TechStack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTechStacks(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller SollyLearn.API.Controllers.TechStackController (SollyLearn.API).
+2024-04-22 15:25:51.920 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-22 15:25:51.922 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-04-22 15:25:52.170 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/TechStack - null null
+2024-04-22 15:25:52.185 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API)'
+2024-04-22 15:25:52.189 +05:30 [INF] Route matched with {action = "GetAllTechStacks", controller = "TechStack"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTechStacks(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller SollyLearn.API.Controllers.TechStackController (SollyLearn.API).
+2024-04-22 15:25:53.825 +05:30 [INF] Executed DbCommand (175ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[Name], [t].[TechStackImageURL]
+FROM [TechStacks] AS [t]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-22 15:25:53.965 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.TechStackDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-22 15:25:53.992 +05:30 [INF] Executed action SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API) in 3697.6223ms
+2024-04-22 15:25:54.006 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API)'
+2024-04-22 15:25:54.026 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/TechStack - 200 null application/json; charset=utf-8 3999.5193ms
+2024-04-22 15:25:55.138 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[Name], [t].[TechStackImageURL]
+FROM [TechStacks] AS [t]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-04-22 15:25:55.149 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.TechStackDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-22 15:25:55.152 +05:30 [INF] Executed action SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API) in 2941.7838ms
+2024-04-22 15:25:55.154 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.TechStackController.GetAllTechStacks (SollyLearn.API)'
+2024-04-22 15:25:55.156 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/TechStack - 200 null application/json; charset=utf-8 2985.9755ms
+2024-04-22 15:25:57.358 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/e93cb985-4533-4df8-bf6b-0e4e4c18d320 - null null
+2024-04-22 15:25:57.371 +05:30 [INF] Executing endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-22 15:25:57.383 +05:30 [INF] Route matched with {action = "GetByTechStackId", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByTechStackId(System.Guid) on controller SollyLearn.API.Controllers.VideoController (SollyLearn.API).
+2024-04-22 15:25:57.717 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@__techStackId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[DateTime], [v].[Description], [v].[FilePath], [v].[TechStackId], [v].[Title]
+FROM [Videos] AS [v]
+WHERE [v].[TechStackId] = @__techStackId_0
+2024-04-22 15:25:57.742 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SollyLearn.API.Models.DTO.VideoDTO, SollyLearn.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-22 15:25:57.756 +05:30 [INF] Executed action SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API) in 366.3317ms
+2024-04-22 15:25:57.767 +05:30 [INF] Executed endpoint 'SollyLearn.API.Controllers.VideoController.GetByTechStackId (SollyLearn.API)'
+2024-04-22 15:25:57.774 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7253/api/Video/TechStack/e93cb985-4533-4df8-bf6b-0e4e4c18d320 - 200 null application/json; charset=utf-8 415.6264ms

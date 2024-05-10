@@ -1,0 +1,53 @@
+﻿@page "/Video/TechStack/{techStackId}"
+@model SollyLearn.UI.Pages.VideoModel
+@{
+    ViewData["Title"] = "Videos";
+
+}
+<h1>Videos</h1>
+
+<div class="row">
+        @foreach (var video in Model.Videos)
+        {
+            <div class="col-md-4">
+                <h3>@video.Title</h3>
+                <p>@video.Description</p>
+                <p>Tech Stack: @video.Title</p>
+                <video controls src="@video.FilePath" style="width:100%">
+
+                </video> 
+           @*  <video controls preload="metadata">
+                <source src="@video.FilePath" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> *@
+
+           @*  <iframe width="560"
+                    height="315"
+                    src="http://www.youtube.com/embed/fxCEcPxUbYA"
+                    frameborder="0"
+                    allowfullscreen></iframe> *@
+            </div>
+        }
+    @* <div class="row">
+        <div class="col-md-4">
+
+            <h3>@Model.Videos.Title</h3>
+            <p>@Model.Videos.Description</p>
+            <p>Tech Stack: @Model.Videos.Title</p> 
+            <video controls src="@Model.Videos.FilePath" style="width:100%"></video>
+        </div>
+    </div>  *@
+
+    @*  <div class="row">
+        @foreach (var video in Model.Videos)
+        {
+            <div class="col-md-4">
+                <h3>@video.Title</h3>
+                <p>@video.Description</p>
+                <p>Tech Stack: @video.TechStack.Name</p>
+                <video controls src="@video.FilePath" style="width:100%"></video>
+            </div>
+        }
+    </div> *@
+
+</div>

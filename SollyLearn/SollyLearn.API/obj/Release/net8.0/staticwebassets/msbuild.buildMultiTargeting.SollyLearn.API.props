@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SollyLearn.API.props" />
+</Project>

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/sollylearn/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsSollyLearnAuthConnectio_68DC13EED9",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-sollylearn/databases/sqldb-sollylearn",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SollyLearnAuthConnectionString",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/sollylearn/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsSollyLearnConnectionStr_499B116D9E",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-sollylearn/databases/sqldb-sollylearn",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SollyLearnConnectionString",
+      "dynamicId": null
+    }
+  }
+}

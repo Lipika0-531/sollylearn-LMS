@@ -1,0 +1,14 @@
+2024-04-23 20:20:28.312 +05:30 [INF] User profile is available. Using 'C:\Users\LIPIKA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-23 20:20:29.015 +05:30 [INF] Now listening on: https://localhost:7253
+2024-04-23 20:20:29.017 +05:30 [INF] Now listening on: http://localhost:5092
+2024-04-23 20:20:29.022 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-23 20:20:29.033 +05:30 [INF] Hosting environment: Development
+2024-04-23 20:20:29.064 +05:30 [INF] Content root path: F:\ASP.NetCore\SollyLearn\SollyLearn\SollyLearn.API
+2024-04-23 20:20:34.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2024-04-23 20:20:35.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 1053.2765ms
+2024-04-23 20:20:35.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-23 20:20:35.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2024-04-23 20:20:35.728 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 126.6833ms
+2024-04-23 20:20:36.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 740.1538ms
+2024-04-23 20:20:36.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2024-04-23 20:20:39.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2448.7989ms

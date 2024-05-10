@@ -1,0 +1,29 @@
+﻿@page
+@model SollyLearn.UI.Pages.TechStackModel
+@{
+    ViewData["Title"] = "TechStack page";
+}
+
+<div class="row">
+    @foreach (var techStack in Model.TechStacks)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card tech-card">
+                <img src="@techStack.TechStackImageURL" class="card-img-top" alt="@techStack.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@techStack.Name</h5>
+                    <p class="card-text">@techStack.Description</p>
+                </div>
+                <div class="card-footer " style="text-align: center;">
+                    <button class="btn btn-primary btn-animated" onclick="navigateToVideos('@techStack.Id')" >Learn More</button>
+                </div> 
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    function navigateToVideos(techStackId) {
+        window.location.href = `/Video/TechStack/${techStackId}`;
+    }
+</script>

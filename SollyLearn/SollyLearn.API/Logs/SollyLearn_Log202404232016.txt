@@ -1,0 +1,6 @@
+2024-04-23 20:16:44.123 +05:30 [INF] User profile is available. Using 'C:\Users\LIPIKA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-23 20:16:46.660 +05:30 [INF] Now listening on: https://localhost:7253
+2024-04-23 20:16:46.664 +05:30 [INF] Now listening on: http://localhost:5092
+2024-04-23 20:16:46.670 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-23 20:16:46.671 +05:30 [INF] Hosting environment: Development
+2024-04-23 20:16:46.673 +05:30 [INF] Content root path: F:\ASP.NetCore\SollyLearn\SollyLearn\SollyLearn.API

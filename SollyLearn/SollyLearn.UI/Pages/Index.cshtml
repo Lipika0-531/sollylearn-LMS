@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+ *@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <h2 class="font-style-class">Welcome to SollyLearn</h2>
+                <p id="typing-text"></p>
+                <div class="content">
+                    <div class="text">
+                        @* <a class="nav-link" asp-area="" asp-page="/About"></a> *@
+                        <a class="btn" asp-area="" asp-page="/TechStack"><i class="bi bi-rocket-fill"></i>&nbsp; &nbsp;    Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="float-animation">
+                <img src="~/Images/HomePage-Illustrations-removebg-preview.png" alt="Animation Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wave">
+    <img src="Images/wave.svg" alt="waving image">
+</div>
+
+@* <div class="container">
+    <!-- Welcome message -->
+    <div class="welcome-message">
+        <p>Welcome to</p>
+        <div class="slanted-text">
+            <span>SollyLearn</span>
+        </div>
+    </div>
+    <!-- Rectangle box covering the text -->
+    <div class="rectangle-box"></div>
+    <!-- Button below the text -->
+    <button class="btn">Click Me</button>
+</div> *@

@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2024-04-04T09:31:13.1514404Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-04-04T09:25:31.4442511Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "7b65764b-5e12-43a4-8919-ad12e02f9407"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rg-sollylearn-dev-001"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "rg-sollylearn-dev-001"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "7b65764b-5e12-43a4-8919-ad12e02f9407"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+2024-05-06 20:03:58.813 +05:30 [INF] User profile is available. Using 'C:\Users\LIPIKA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
